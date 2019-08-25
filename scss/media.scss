@@ -1,0 +1,25 @@
+@media (min-width: 1025px){
+  .hover-line{
+    &:hover{
+      &:before{
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+  .wb-btn{
+    &:hover{
+      background: #0014FF;
+      box-shadow: 0 8px 18px 0 rgba(0,20,255,0.40);
+    }
+  }
+  .btn-transparent:hover{
+    color: #1528FF;
+    border: 1px solid #1528FF;
+  }
+  .btn-nav{
+    &:hover{
+      box-shadow: 0 6px 12px 0 rgba(0,0,0,0.07);
+    }
+  }
+}
